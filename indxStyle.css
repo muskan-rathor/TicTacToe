@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#00b4d8;
+    text-align:center;
+
+}
+
+.container{
+    height:70vh;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 550px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 10%;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0,119,182,1) ;
+    font-size: 8vmin;
+    color:#03045e;
+}
+.Reset{
+   height: 50px;
+   width: 300px;
+   font-size: large;
+   font-style:italic;
+   background-color: #ade8f4;
+   border: none;
+   border-radius: 5px;
+   color: rgb(118, 119, 175);
+   margin-bottom:5px;
+}
+.newbtn{
+    height: 50px;
+   width: 300px;
+   font-size: large;
+   font-style:italic;
+   background-color: #ade8f4;
+   border: none;
+   border-radius: 5px;
+   color: rgb(118, 119, 175);
+   margin-top:5px;
+}
+
+/* #result{
+    height: 20px;
+    width: 600px;
+    margin-left: 450px;
+    margin-top:10px;
+    padding:10px;
+    font-size: large;
+    font-style:italic;
+    background-color: #ade8f4;
+    border: none;
+    border-radius: 5px;
+    color: rgb(118, 119, 175);
+} */
+
+
+.result{
+    font-style: italic;
+    color:white;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hide{
+    display:none;
+}
